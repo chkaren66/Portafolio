@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family: 'Josefin Sans', sans-serif;
+    /* outline: 1px solid red; */
+}
+/* header */
+/* ------------------------- */
+.cabecera{
+
+    width: 100vw;
+    background-color: #c8cdd0;
+    
+    
+}
+.contenedor-cabecera{
+    
+    max-width: 1400px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+ 
+}
+.titulo{
+    padding: 10px;
+    font-size: 40px;
+}
+.menu{
+    width: 700px;
+    margin: 20px 15px 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    align-content: center;
+    
+}
+.item-menu{
+   
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+   
+}
+
+.container{
+    height: 90vh;
+    min-height: 500px;
+    padding: 20px;
+   
+
+}
+
+/* container quien soy  */
+.container1{
+    background-color: #192229;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+   
+}
+.container-imagen{
+    max-width: 500px;
+    overflow: hidden;
+    
+    
+}
+.container-imagen img{
+    width: 100%;
+}
+.mi-descripcion h1{
+    font-size: 50px;
+    padding: 0 0 10px 0px;
+}
+
+/* Container proyectos */
+.container2{
+    background-color: white;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    
+}
+.container2 .titulo-container{
+    font-size: 25px;
+    text-align: center;
+    margin: 20px auto;
+}
+.container2 .proyectos-container{
+    max-width: 700px;
+    height: 500px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    margin: auto;
+    
+   
+}
+.container2 .item{
+    box-shadow: 1px 1px 7px 2px rgb(145, 139, 139);
+   
+    width: 200px;
+    max-height: 200px;
+    margin: 10px;
+
+}
+
+.container2 .titulo-proy{
+    padding: 15px;
+    color: #52a5e0;
+}
+.container2 .descrip-proy{
+    padding: 15px;
+    text-align: justify;
+}
+.container2 .tecnologia{
+    font-size: 15px;
+    color: #52a5e0;
+}
+
+
+
+
+
+
+
+
+/* .container habilidades */
+.container3{
+    background-color: #2a3b47;
+}
+
+
+
+
+/* --------------------- */
+/* .container{
+    background-color: rgb(109, 131, 124);
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+  
+} */
