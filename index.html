@@ -6,32 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curso CSS</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7e5b2d153f.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
-
+    <script defer src="/index.js"></script>
 </head>
 <body>
     <header class="cabecera">
-        <div class="contenedor-cabecera">
-            <h1 class="titulo">KM</h1>
+                 
             <nav class="menu">
-              <a href="#quiensoy" class="item-menu">Quien soy</a>
-              <a href="#proyectos" class="item-menu">Proyectos</a>
-              <a href="#habilidades" class="item-menu">Habilidades</a>
-              <a href="#contactame" class="item-menu">Contactame</a>
+              <a href="#quiensoy" class="logo">KM</a>
+              <button class="bar">
+                 <i class="fas fa-bars"></i>
+              </button>
+              <ul class="lista-menu bar-visible">
+                <li class="menu-item"><a href="#quiensoy" class="nav-link-item">Quien soy</a></li>
+                <li class="menu-item"><a href="#proyectos" class="nav-link-item">Proyectos</a></li>
+                <li class="menu-item"><a href="#habilidades" class="nav-link-item">Habilidades</a></li>
+                <li class="menu-item"><a href="#contactame" class="nav-link-item">Contactame</a></li>
+              </ul>
             </nav>    
-        </div>
-    
+      
     </header>
     <div class="super-container">
         <section class="container container1" id="quiensoy">
-            <div class="container-imagen">
-                <img src="Imagenes//imagen.webp" alt="">
-            </div>
+            
             <div class="mi-descripcion">
                 <h1>Hola soy KAREM</h1>
                 <p>Hola soy una ingeniera de sistema y entusianta del desarrollo y manejo de proyectos de software</p>
+            </div>
+            <div class="container-imagen">
+                <img src="Imagenes//imagen.webp" alt="">
             </div>
         </section>
         <section class="container container2" id="proyectos">
