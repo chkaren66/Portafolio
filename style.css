@@ -150,11 +150,12 @@ body{
 
 
 /* contenedores */
+/* ---------------------------------- */
 .container{
-    height: 600px;
+    height: 100%;
     width: 100%;
-    min-height: 500px;
-    padding: 20px;
+    padding: 10px 40px;
+   
    
 
 }
@@ -180,7 +181,7 @@ body{
 }
 .mi-descripcion h1{
     font-size: 50px;
-    padding: 0 0 20px 0px;
+    padding: 40px 20px; 
 }
 .text-des{
     max-width: 500px;
@@ -205,6 +206,7 @@ body{
     }
     .text-des{
         max-width: 400px;
+        text-align: center;
     }
 }
 /* --------------------------------- */
@@ -212,46 +214,47 @@ body{
 /* ---------------------------------- */
 .container2{
     background-color: white;
-    min-height: 500px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    
-    
 }
 .container2 .titulo-container{
-    font-size: 25px;
+    font-size-adjust: calc(100-80px);
     text-align: center;
     margin: 20px auto;
+    
+   
 }
 .container2 .proyectos-container{
-    max-width: 700px;
-    height: 500px;
-    display: flex;
-    flex-wrap:wrap;
-    justify-content: center;
-    margin: auto;
     
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; 
+    margin-bottom: 40px;
    
 }
 .container2 .item{
     box-shadow: 1px 1px 7px 2px rgb(145, 139, 139);
-   
-    width: 200px;
+    padding: 10px;
+    max-width: 200px;
     max-height: 200px;
     margin: 10px;
 
 }
 
 .container2 .titulo-proy{
+    max-width: 200px;
+    height: 60px;
+  
     padding: 15px;
     color: #52a5e0;
+    
 }
 .container2 .descrip-proy{
     padding: 15px;
     text-align: justify;
+    height:  100px;
+    
+   
+    
 }
 .container2 .tecnologia{
     font-size: 15px;
@@ -264,20 +267,65 @@ body{
 
 
 
-
+/*  ------------------------------------*/
 /* .container habilidades */
+/* --------------------------------- */
 .container3{
     background-color: #2a3b47;
+}
+
+.titulo-habilidades{
+    margin: 10px auto;
+    padding: 10px;
+   
+}
+.container-habilidades{
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+}
+
+.habilidad{
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    margin: 20px;
+    border: 2px solid white;
+    color: white;
 }
 
 
 
 
-/* --------------------- */
-/* .container{
-    background-color: rgb(109, 131, 124);
-    width: 100vw;
-    height: 90vh;
+/* ----------------------------- */
+/* Container de contactos */
+/* ------------------------------- */
+
+.container4{
+    
+    padding-bottom: 30px;
+}
+.titulo-contacto{
+   
+    margin-top: 20px;
+   
+}
+.container-contacto{
+    width: 100%;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   
-} */
+}
+.contacto{
+    padding: 10px;
+}
+.contacto i {
+    padding: 12px;
+    margin: 10px 30px;
+    border-radius: 50%;
+    color: white;
+    background-color: #192229;
+}
